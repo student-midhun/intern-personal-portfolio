@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE= edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midhun - Intern Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: lavender;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            height: 110px;
+            background-color: black
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 30px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(116, 116, 227);
+            font-size: 1.075rem;
+        }
+
+        main hr {
+            background: black;
+            color: black;
+            height: 1px;
+            margin: 25px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .dotSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 60px 0;
+        }
+
+        .dotSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 2rem;
+            margin: 70px 0;
+        }
+
+        .leftSection .buttons {
+            padding: 5px 0;
+        }
+
+        .leftSection .btn {
+            padding: 12px;
+            background-color: mediumpurple;
+            color: white;
+            border: 2px solid #411853;
+            border-radius: 6px;
+            font-size: 12px;
+            cursor: pointer;
+        }
+
+
+        .rightSection img {
+            width: 90%;
+
+        }
+
+        .purple {
+            color: purple;
+        }
+
+        .text-black {
+            color: rgb(0, 0, 0);
+        }
+
+        #element {
+            color: purple;
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 40vw;
+        }
+
+        .secondSection h1 {
+            font-size: 1.25rem;
+        }
+
+        .secondSection .box {
+            background: black;
+            width: 45vw;
+            height: 1px;
+            margin: 33px;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 87px;
+            width: 1px;
+            background-color: black;
+            margin: 0 6vw;
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -25px;
+            left: -11px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 62px;
+            width: 127px;
+            color: black;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 67px;
+            width: 149px;
+            font-size: 9px;
+            color: black;
+        }
+
+        footer {
+            background-color: black;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 123px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style-type: none;
+        }
+
+        .footer>div {
+
+            width: 255px;
+        }
+
+        footer .footer-right {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+
+        @media screen and (max-width:1200px) {
+
+
+            .box {
+                flex-direction: column;
+            }
+
+            .secondSection .vertical {
+                height: unset;
+            }
+
+            .vertical-title,
+            .vertical-desc {
+                left: 30px;
+            }
+
+            .secondSection .box {
+                width: 45vm;
+            }
+
+            nav {
+                flex-direction: column;
+            }
+
+            .dotSection {
+                flex-direction: column-reverse;
+            }
+
+            .leftSection {
+                width: 100% !important;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .secondSection {
+                height: 250vw;
+            }
+
+            .rightSection {
+                width: 411px !important;
+                display: flex;
+                justify-content: center;
+            }
+
+            .rightSection img {
+                width: 45vw;
+                margin-bottom: 73px;
+            }
+
+            .secondSection {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            body {
+                min-width: fit-content
+            }
+
+            .image-top {
+                width: 24px;
+                position: relative;
+                top: 105px;
+                left: -15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <div class="left">Midhun's Intern Portfolio</div>
+            <div class="right"></div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">Projects</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="dotSection">.
+            <div class="leftSection">
+                <div>My name is <span class="purple">Midhun</span></div>
+
+                <div>& I'm a passionate , aspiring</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                    <button class="btn">My Linkedln</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="bgm.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-black"> What I have done so far </span>
+            <h1>Past Work experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class=image-top src="developer1.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer (2020-2022)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis quaerat omnis veritatis culpa
+                        quidem. Fuga excepturi vel error consequuntur est laudantium, fugit consectetur perferendis
+                        tempora voluptatibus voluptas mollitia ipsa minima.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class=image-top src="pythondev.png" alt="">
+                    <div class="vertical-title">
+                        Python Developer (2020-2022)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis quaerat omnis veritatis culpa
+                        quidem. Fuga excepturi vel error consequuntur est laudantium, fugit consectetur perferendis
+                        tempora voluptatibus voluptas mollitia ipsa minima.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class=image-top src="nodejsdev.png" alt="">
+                    <div class="vertical-title">
+                        node.js Developer (2023-)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis quaerat omnis veritatis culpa
+                        quidem. Fuga excepturi vel error consequuntur est laudantium, fugit consectetur perferendis
+                        tempora voluptatibus voluptas mollitia ipsa minima.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class=image-top src="rustdev.png" alt="">
+                    <div class="vertical-title">
+                        RUST Developer (2023-)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis quaerat omnis veritatis culpa
+                        quidem. Fuga excepturi vel error consequuntur est laudantium, fugit consectetur perferendis
+                        tempora voluptatibus voluptas mollitia ipsa minima.
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first"></div>
+            <h3>My Developer Portfolio</h3>
+
+            <div class="footer-second"></div>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Service</li>
+                <li>Email</li>
+                <li>Linkedln</li>
+                <li>Github</li>
+            </ul>
+            <div class="footer-third"></div>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Service</li>
+                <li>Email</li>
+                <li>Linkedln</li>
+                <li>Github</li>
+            </ul>
+            <div class="footer-fourth"></div>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Service</li>
+                <li>Email</li>
+                <li>Linkedln</li>
+                <li>Github</li>
+            </ul>
+        </div>
+        <div class="footer-right">
+            Copyright&#169; www.midhunportfolio.com | All rights reserved | Terms and Conditions Applied
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<i>Web Developer,', 'Fast Learner,', 'Seeker of opportunities.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+</body>
+
+</html>

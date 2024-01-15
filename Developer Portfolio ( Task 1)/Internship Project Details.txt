@@ -1,0 +1,37 @@
+Phase 1 Tasks
+Duration : 15 Days
+Normal Task: Portfolio Website
+Create a personal portfolio website that serves as an online resume and showcases the intern's skills, projects, and experiences. The goal is to have a clean, visually appealing, and responsive website that provides an overview of the intern's capabilities and achievements.																	
+
+Golden Task: Create a Blog website of your own
+Create a personal blog website to share your thoughts, experiences, and
+insights on various topics. This website will serve as a platform to
+showcase your writing skills, and it will be an opportunity to experiment
+with web development technologies
+
+Phase 2 Tasks
+Duration : 15 Days 
+Normal Task: Create a weather dashboard
+Develop a Weather Dashboard that allows users to quickly check the current
+weather conditions, as well as the forecast, for a specified location. The
+dashboard will utilize a weather API to fetch real-time weather data and present
+it in an easy-to-understand and visually appealing manner.
+
+Golden Task: Real-time chat web application
+Develop a Real-Time Chat Webpage that allows users to engage in instant messaging with
+others in a dynamic and responsive environment. The goal is to create a user-friendly chat
+application that enables real-time communication between participants.
+
+Additional Tasks
+Duration : Internship Tenure period
+Task 1 : Build a basic e-commerce website
+Develop a fully functional E-commerce Website that allows users to browse
+products, add items to their shopping cart, and complete the checkout
+process. The website will provide a seamless and secure shopping
+experience, integrating essential features for online retail.
+
+Task 2 : Build a travel itinerary planner
+Create a comprehensive Travel Itinerary Planner that allows users to plan and
+organize their trips by inputting destinations, activities, and dates. The goal is
+to provide a user-friendly platform for travelers to efficiently plan their
+journeys and keep track of their travel details.
